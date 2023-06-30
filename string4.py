@@ -1,0 +1,5 @@
+#positional formating
+print ('to {}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lavore et dolore magna aliqua. Ut enim ad minim apple veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{} DUis aute irure dolor in {} reprehenderit apple computer in volupatate velit esse cillum doloreeu fugiat nulla pariatur. Excepteur sint occaeacat cupidatat non proidentm sunt in culpa qui {} officia deserunt mollit anim id est laborum.'.format('egoing', 12, 'egoing', 'egoing'))
+
+#Named palceholder
+print ('to {name}. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lavore et dolore magna aliqua. Ut enim ad minim apple veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.{age:d} DUis aute irure dolor in {name} reprehenderit apple computer in volupatate velit esse cillum doloreeu fugiat nulla pariatur. Excepteur sint occaeacat cupidatat non proidentm sunt in culpa qui {name} officia deserunt mollit anim id est laborum.'.format(name='egoing', age=12))
