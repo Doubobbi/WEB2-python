@@ -1,7 +1,7 @@
 
 test_list = ['one', 'two', 'three']
-#for i in test_list:
-    #print(i)
+for i in test_list:
+    print(i)
 
 #ex2
 print()
@@ -43,11 +43,3 @@ for mark in marks:
     print("%d번 학생 축하합니다. 합격입니다." % number) 
 
 print()
-#구구단
-
-a = 10
-for i in range(2,10):
-    for j in range(1,10):
-        print(i * j, end=" ")
-        print('')
-    
